@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# This file is generated from NI-DCPower API metadata version 22.8.0d129
+# This file is generated from NI-DCPower API metadata version 22.8.0d9999
 enums = {
     'ApertureTimeAutoMode': {
         'values': [
@@ -300,27 +300,33 @@ enums = {
     'Event': {
         'values': [
             {
-                'name': 'NIDCPOWER_VAL_SOURCE_COMPLETE',
+                'name': 'NIDCPOWER_VAL_SOURCE_COMPLETE_EVENT',
+                'python_name': 'NIDCPOWER_VAL_SOURCE_COMPLETE',
                 'value': 1030
             },
             {
-                'name': 'NIDCPOWER_VAL_MEASURE_COMPLETE',
+                'name': 'NIDCPOWER_VAL_MEASURE_COMPLETE_EVENT',
+                'python_name': 'NIDCPOWER_VAL_MEASURE_COMPLETE',
                 'value': 1031
             },
             {
-                'name': 'NIDCPOWER_VAL_SEQUENCE_ITERATION_COMPLETE',
+                'name': 'NIDCPOWER_VAL_SEQUENCE_ITERATION_COMPLETE_EVENT',
+                'python_name': 'NIDCPOWER_VAL_SEQUENCE_ITERATION_COMPLETE',
                 'value': 1032
             },
             {
-                'name': 'NIDCPOWER_VAL_SEQUENCE_ENGINE_DONE',
+                'name': 'NIDCPOWER_VAL_SEQUENCE_ENGINE_DONE_EVENT',
+                'python_name': 'NIDCPOWER_VAL_SEQUENCE_ENGINE_DONE',
                 'value': 1033
             },
             {
-                'name': 'NIDCPOWER_VAL_PULSE_COMPLETE',
+                'name': 'NIDCPOWER_VAL_PULSE_COMPLETE_EVENT',
+                'python_name': 'NIDCPOWER_VAL_PULSE_COMPLETE',
                 'value': 1051
             },
             {
-                'name': 'NIDCPOWER_VAL_READY_FOR_PULSE_TRIGGER',
+                'name': 'NIDCPOWER_VAL_READY_FOR_PULSE_TRIGGER_EVENT',
+                'python_name': 'NIDCPOWER_VAL_READY_FOR_PULSE_TRIGGER',
                 'value': 1052
             }
         ]
@@ -847,6 +853,18 @@ enums = {
                 },
                 'name': 'NIDCPOWER_VAL_OUTPUT_CONSTANT_CURRENT',
                 'value': 1
+            },
+            {
+                'name': 'NIDCPOWER_VAL_OUTPUT_OVER_VOLTAGE',
+                'value': 2
+            },
+            {
+                'name': 'NIDCPOWER_VAL_OUTPUT_OVER_CURRENT',
+                'value': 3
+            },
+            {
+                'name': 'NIDCPOWER_VAL_OUTPUT_UNREGULATED',
+                'value': 4
             }
         ]
     },
@@ -957,27 +975,33 @@ enums = {
     'SendSoftwareEdgeTriggerType': {
         'values': [
             {
-                'name': 'NIDCPOWER_VAL_START',
+                'name': 'NIDCPOWER_VAL_START_TRIGGER',
+                'python_name': 'NIDCPOWER_VAL_START',
                 'value': 1034
             },
             {
-                'name': 'NIDCPOWER_VAL_SOURCE',
+                'name': 'NIDCPOWER_VAL_SOURCE_TRIGGER',
+                'python_name': 'NIDCPOWER_VAL_SOURCE',
                 'value': 1035
             },
             {
-                'name': 'NIDCPOWER_VAL_MEASURE',
+                'name': 'NIDCPOWER_VAL_MEASURE_TRIGGER',
+                'python_name': 'NIDCPOWER_VAL_MEASURE',
                 'value': 1036
             },
             {
-                'name': 'NIDCPOWER_VAL_SEQUENCE_ADVANCE',
+                'name': 'NIDCPOWER_VAL_SEQUENCE_ADVANCE_TRIGGER',
+                'python_name': 'NIDCPOWER_VAL_SEQUENCE_ADVANCE',
                 'value': 1037
             },
             {
-                'name': 'NIDCPOWER_VAL_PULSE',
+                'name': 'NIDCPOWER_VAL_PULSE_TRIGGER',
+                'python_name': 'NIDCPOWER_VAL_PULSE',
                 'value': 1053
             },
             {
-                'name': 'NIDCPOWER_VAL_SHUTDOWN',
+                'name': 'NIDCPOWER_VAL_SHUTDOWN_TRIGGER',
+                'python_name': 'NIDCPOWER_VAL_SHUTDOWN',
                 'value': 1118
             }
         ]
