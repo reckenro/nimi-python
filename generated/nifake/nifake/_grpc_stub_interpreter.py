@@ -21,9 +21,9 @@ from . import custom_struct_typedef as custom_struct_typedef  # noqa: F401
 class GrpcStubInterpreter(object):
     '''Interpreter for interacting with a gRPC Stub class'''
 
-    def __init__(self, grpc_channel):
+    def __init__(self, grpc_options):
         self._lock = threading.RLock()
-        self._client = nifake_grpc.NiFakeStub(grpc_channel)
+        self._client = nifake_grpc.NiFakeStub(grpc_options['channel'])
         self._vi = 0
 
     def _invoke(self, func, request):
